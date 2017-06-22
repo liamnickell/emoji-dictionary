@@ -9,7 +9,7 @@
 import UIKit
 
 class DefinitionViewController: UIViewController {
-
+    
     @IBOutlet weak var emojiLabel: UILabel!
     @IBOutlet weak var definitionLabel: UILabel!
     
@@ -20,9 +20,9 @@ class DefinitionViewController: UIViewController {
         super.viewDidLoad()
         
         definitionLabel.adjustsFontSizeToFitWidth = true
-
+        
         emojiLabel.text = emoji
         definitionLabel.text = definition
     }
-
+    
 }

@@ -12,7 +12,7 @@
 		554C7A961EFB596A00EE7FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554C7A941EFB596A00EE7FFD /* Main.storyboard */; };
 		554C7A981EFB596A00EE7FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554C7A971EFB596A00EE7FFD /* Assets.xcassets */; };
 		554C7A9B1EFB596A00EE7FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554C7A991EFB596A00EE7FFD /* LaunchScreen.storyboard */; };
-		554C7AA51EFBAB9400EE7FFD /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C7AA41EFBAB9400EE7FFD /* DefinitionViewController.swift */; };
+		554C7AA71EFBBA6E00EE7FFD /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C7AA61EFBBA6E00EE7FFD /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		554C7A971EFB596A00EE7FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		554C7A9A1EFB596A00EE7FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554C7A9C1EFB596A00EE7FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		554C7AA41EFBAB9400EE7FFD /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
+		554C7AA61EFBBA6E00EE7FFD /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				554C7A901EFB596A00EE7FFD /* AppDelegate.swift */,
 				554C7A921EFB596A00EE7FFD /* ViewController.swift */,
-				554C7AA41EFBAB9400EE7FFD /* DefinitionViewController.swift */,
 				554C7A941EFB596A00EE7FFD /* Main.storyboard */,
 				554C7A971EFB596A00EE7FFD /* Assets.xcassets */,
 				554C7A991EFB596A00EE7FFD /* LaunchScreen.storyboard */,
 				554C7A9C1EFB596A00EE7FFD /* Info.plist */,
+				554C7AA61EFBBA6E00EE7FFD /* DefinitionViewController.swift */,
 			);
 			path = "emoji-dictionary";
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554C7A931EFB596A00EE7FFD /* ViewController.swift in Sources */,
-				554C7AA51EFBAB9400EE7FFD /* DefinitionViewController.swift in Sources */,
+				554C7AA71EFBBA6E00EE7FFD /* DefinitionViewController.swift in Sources */,
 				554C7A911EFB596A00EE7FFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
